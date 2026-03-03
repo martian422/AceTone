@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python train_vq.py --data_dir /path/to/luts --augment

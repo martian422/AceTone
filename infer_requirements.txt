@@ -1,0 +1,9 @@
+# export HF_ENDPOINT=https://hf-mirror.com
+# for deqa transformers==4.36.1
+# icecream 
+
+# pip install -U -r infer_requirements.txt
+
+vllm
+qwen-vl-utils[decord]==0.0.8
+scikit-image

@@ -1,0 +1,14 @@
+scipy
+scikit-learn
+scikit-image
+lpips
+matplotlib
+onnxruntime-gpu
+faiss-cpu
+datasets
+transformers==4.50.0
+deepspeed==0.16.4
+accelerate
+qwen-vl-utils[decord]==0.0.8
+
+# export HF_ENDPOINT=https://hf-mirror.com

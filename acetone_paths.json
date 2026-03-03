@@ -1,0 +1,21 @@
+{
+  "adobe5k_extract_dir": "PATH_TO_ADOBE5K_EXTRACT_DIR",
+  "luts_3d_npy_dir": "PATH_TO_LUTS_3D_NPY_DIR",
+  "luts_npy_c1024_dir": "PATH_TO_LUTS_NPY_C1024_DIR",
+  "luts_npy_c512_dir": "PATH_TO_LUTS_NPY_C512_DIR",
+  "luts_npy_c2048_dir": "PATH_TO_LUTS_NPY_C2048_DIR",
+  "luts_npy_c8192_dir": "PATH_TO_LUTS_NPY_C8192_DIR",
+  "mscoco_train_dir": "PATH_TO_MSCOCO_TRAIN_DIR",
+  "vq_ckpt_path": "PATH_TO_VQ_CKPT_PATH",
+  "vlm_model_dir": "PATH_TO_ACETONE_VLM_MODEL_DIR",
+  "toned_images_dir": "PATH_TO_TONED_IMAGES_DIR",
+  "qwen2_5_vl_32b_path": "PATH_TO_QWEN2_5_VL_32B_DIR",
+  "unified_reward_model_path": "PATH_TO_UNIFIED_REWARD_MODEL_DIR",
+  "ppr10k_images_dir": "PATH_TO_PPR10K_IMAGES_DIR",
+  "demo_data_json": "PATH_TO_DEMO_DATA_JSON",
+  "demo_ori_prefix": "PATH_TO_DEMO_ORI_PREFIX",
+  "demo_anno_prefix": "PATH_TO_DEMO_ANNO_PREFIX",
+  "acetone_bench_dir": "PATH_TO_ACETONE_BENCH_DIR",
+  "pst_bench_dir": "PATH_TO_PST50_DIR",
+  "help": "YOU CAN FILL THE ABOVE PATHS WHEN YOU NEED SOME OF THEM"
+}
