@@ -1,5 +1,6 @@
 # AceTone: Bridging Words and Colors for Conditional Image Grading.
 
+English | [中文README](README.zh_CN.md)
 
 This is the official implementation of AceTone (CVPR 2026). Paper: [arXiv:2603.XXXX](http://arxiv.org/abs/2603.XXXX).
 
@@ -17,7 +18,7 @@ conda create -n acetone python=3.11
 conda activate acetone
 ```
 
-You shall install pytorch following the [official guide](https://pytorch.org/get-started/locally/). CUDA 12.1 and torch 2.5.0 is a good choice.
+You shall install pytorch following the [official guide](https://pytorch.org/get-started/locally/).
 
 Then install the remaining packages:
 
@@ -94,3 +95,7 @@ If you find this work helpful, please cite:
       note={arXiv:2603.XXXX}
 }
 ```
+
+## License
+
+This project is licensed under the [Apache-2.0 License](LICENSE).
