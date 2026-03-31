@@ -2,11 +2,11 @@
 
 English | [中文README](README.zh_CN.md)
 
-This is the official implementation of AceTone (CVPR 2026). Paper: [arXiv:2603.XXXX](http://arxiv.org/abs/2603.XXXX).
+This is the official implementation of AceTone (CVPR 2026). Paper: [arXiv:2604.XXXX](http://arxiv.org/abs/2604.XXXX).
 
 In this repo, we release:
   1. **LUT tokenizer** for representing LUTs as compact tokens.
-  2. **AceTone VLM** for conditional color grading. 
+  2. **AceTone VLM** modeling for conditional color grading. 
   3. Detailed SFT, RL and Evaluation scripts.
 
 ## 🚀 Get Started
@@ -38,7 +38,7 @@ pip install trl==0.19.0
 
 
 ## 🎨 LUT tokenizer
-We propose the AceTone tokenizer so that each 32-bit LUT can be represented with 64 discrete tokens with high fidelity. For the pretrained weights (~4M parameters), please download it from [huggingface](https://huggingface.co/acetone/lut-tokenizer). 
+We propose the AceTone tokenizer so that each 32-bit LUT can be represented with 64 discrete tokens with high fidelity. We have provided the pretrained weights (~4M parameters) in this repo as [model/acetone-vqvae-d64.pt](model/acetone-vqvae-d64.pt).
 
 See [VQ.md](model/VQ.md) for training details.
 
@@ -92,7 +92,7 @@ If you find this work helpful, please cite:
       author={Tianren Ma and Mingxiang Liao and Xijin Zhang and Qixiang Ye},
       booktitle={CVPR},
       year={2026},
-      note={arXiv:2603.XXXX}
+      note={arXiv:2604.XXXX}
 }
 ```
 
