@@ -4,7 +4,7 @@
 
 本仓库发布内容包括：
   1. 用于将 LUT 表示为紧凑 token 的 **LUT tokenizer**。
-  2. 用于条件调色的 **AceTone VLM**。
+  2. 用于条件调色的 **AceTone VLM** 建模。
   3. 完整的 SFT、RL 与评测脚本。
 
 ## 🚀 快速开始
@@ -80,6 +80,11 @@ bash scripts/grpo.sh
 ```
 torchrun --nproc_per_node=8 --master_port=23333 eval/predict_lut_ddp.py
 ```
+
+## 🛠️ 实用工具
+我们在 `useful_tools` 目录中提供了两个用于 LUT 处理的脚本：
+- `convert_luts.py`: 此脚本将任何大小的 `.cube` 文件统一转换为 32x32x32 的网格，生成一个形状为 `(32, 32, 32, 3)` 的 NumPy 数组。它将输出同时保存为 `.cube` 和 `.npy` 文件。
+- `select_luts.py`: 此脚本将大量的 LUT 文件聚类成一个更小、更具代表性的集合。这对于为训练创建多样化、高质量的数据集非常有用。
 
 ## 📄 BibTex
 

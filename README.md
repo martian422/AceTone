@@ -82,7 +82,10 @@ We provide a script for evaluation. For benchmarking, you can follow the instruc
 torchrun --nproc_per_node=8 --master_port=23333 eval/predict_lut_ddp.py
 ```
 
-
+## 🛠️ Useful Tools
+We provide two scripts for LUT processing in the `useful_tools` directory:
+- `convert_luts.py`: This script converts `.cube` files of any size to a uniform 32x32x32 grid, resulting in a NumPy array of shape `(32, 32, 32, 3)`. It saves the output as both `.cube` and `.npy` files.
+- `select_luts.py`: This script clusters a large number of LUTs into a smaller, more representative set. This is useful for creating a diverse and high-quality dataset for training.
 
 ## 📄 BibTex
 If you find this work helpful, please cite:
