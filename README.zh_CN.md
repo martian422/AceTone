@@ -1,6 +1,6 @@
 # AceTone：Bridging Words and Colors for Conditional Image Grading.
 
-这是 AceTone（CVPR 2026）的官方实现。论文：[arXiv:2604.XXXX](http://arxiv.org/abs/2604.XXXX)。
+这是 AceTone（CVPR 2026）的官方实现。论文：[arXiv:2604.00530](http://arxiv.org/abs/2604.00530)。
 
 本仓库发布内容包括：
   1. 用于将 LUT 表示为紧凑 token 的 **LUT tokenizer**。
@@ -95,7 +95,7 @@ torchrun --nproc_per_node=8 --master_port=23333 eval/predict_lut_ddp.py
       author={Tianren Ma and Mingxiang Liao and Xijin Zhang and Qixiang Ye},
       booktitle={CVPR},
       year={2026},
-      note={arXiv:2604.XXXX}
+      note={arXiv:2604.00530}
 }
 ```
 

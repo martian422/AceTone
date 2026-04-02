@@ -17,5 +17,5 @@
   "demo_anno_prefix": "PATH_TO_DEMO_ANNO_PREFIX",
   "acetone_bench_dir": "PATH_TO_ACETONE_BENCH_DIR",
   "pst_bench_dir": "PATH_TO_PST50_DIR",
-  "help": "YOU CAN FILL THE ABOVE PATHS WHEN YOU NEED SOME OF THEM"
+  "help": "YOU CAN FILL THE ABOVE PATHS WHEN YOU NEED THEM"
 }

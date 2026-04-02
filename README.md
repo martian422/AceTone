@@ -2,7 +2,7 @@
 
 English | [中文README](README.zh_CN.md)
 
-This is the official implementation of AceTone (CVPR 2026). Paper: [arXiv:2604.XXXX](http://arxiv.org/abs/2604.XXXX).
+This is the official implementation of AceTone (CVPR 2026). Paper: [arXiv:2604.00530](http://arxiv.org/abs/2604.00530).
 
 In this repo, we release:
   1. **LUT tokenizer** for representing LUTs as compact tokens.
@@ -95,7 +95,7 @@ If you find this work helpful, please cite:
       author={Tianren Ma and Mingxiang Liao and Xijin Zhang and Qixiang Ye},
       booktitle={CVPR},
       year={2026},
-      note={arXiv:2604.XXXX}
+      note={arXiv:2604.00530}
 }
 ```
 

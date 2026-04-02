@@ -10,7 +10,6 @@ root = Blueprint("root", __name__)
 import torch
 from transformers import AutoModelForCausalLM
 
-# export HF_ENDPOINT=https://hf-mirror.com
 # for deqa transformers==4.36.1
 # how to run me?
 # bash deqa_server.sh
