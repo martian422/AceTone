@@ -87,6 +87,11 @@ We provide two scripts for LUT processing in the `useful_tools` directory:
 - `convert_luts.py`: This script converts `.cube` files of any size to a uniform 32x32x32 grid, resulting in a NumPy array of shape `(32, 32, 32, 3)`. It saves the output as both `.cube` and `.npy` files.
 - `select_luts.py`: This script clusters a large number of LUTs into a smaller, more representative set. This is useful for creating a diverse and high-quality dataset for training.
 
+## 📦 Model & Benchmark
+We have uploaded the following resources to Hugging Face:
+- **Model**: [Vivre/AceTone-3B-PST-Preview](https://huggingface.co/Vivre/AceTone-3B-PST-Preview)
+- **Benchmark**: [Vivre/AceTone-Bench-Transfer](https://huggingface.co/datasets/Vivre/AceTone-Bench-Transfer)
+
 ## 📄 BibTex
 If you find this work helpful, please cite:
 ```

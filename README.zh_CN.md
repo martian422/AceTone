@@ -86,6 +86,11 @@ torchrun --nproc_per_node=8 --master_port=23333 eval/predict_lut_ddp.py
 - `convert_luts.py`: 此脚本将任何大小的 `.cube` 文件统一转换为 32x32x32 的网格，生成一个形状为 `(32, 32, 32, 3)` 的 NumPy 数组。它将输出同时保存为 `.cube` 和 `.npy` 文件。
 - `select_luts.py`: 此脚本将大量的 LUT 文件聚类成一个更小、更具代表性的集合。这对于为训练创建多样化、高质量的数据集非常有用。
 
+## 📦 模型与基准测试
+我们已将以下资源上传至 Hugging Face：
+- **模型**: [Vivre/AceTone-3B-PST-Preview](https://huggingface.co/Vivre/AceTone-3B-PST-Preview)
+- **基准测试**: [Vivre/AceTone-Bench-Transfer](https://huggingface.co/datasets/Vivre/AceTone-Bench-Transfer)
+
 ## 📄 BibTex
 
 如果你觉得本工作有帮助，请引用：
